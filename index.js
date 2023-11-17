@@ -1,7 +1,7 @@
 const http=require('https');
 const env=require('./config/environment')
 const morgan=require('morgan')
-const port= process.env.PORT || 8000;
+const port= process.env.PORT || 3000;
 const path=require('path');
 const express=require('express');
 const db=require('./config/mongoose');
